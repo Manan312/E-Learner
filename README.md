@@ -51,6 +51,7 @@ This project is focused entirely on UI/UX using modern frontend technologies, wi
 2️⃣ Install dependencies
 
 npm install
+
 3️⃣ Start development server
 
 npm run dev
