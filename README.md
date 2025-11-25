@@ -1,18 +1,63 @@
-# React + Vite
+# 🎓 E-Learner App (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📘 Overview
+E-Learner App is a modern, responsive frontend-only web application designed for browsing courses, viewing details, and experiencing a clean UI-based learning platform.  
+This project is focused entirely on UI/UX using modern frontend technologies, without any backend or database.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### 🎨 User Interface
+- Modern glass-morphism navbar
+- Fully responsive layout
+- Smooth hover animations
+- Dropdown navigation menu
+- Clean typography and spacing
+- Reusable components
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 📚 E-Learning UI Features
+- Static course listing (JSON/mock data)
+- Instructor info cards
+- Course detail page (optional)
+- Elegant course cards & banners
+- Loading animations (custom loader)
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Framework
+- React (Vite)
+**or**
+- Angular  
+(whichever you used)
+
+### Styling
+- Custom CSS (Glass UI)
+- Flexbox & Grid layouts
+
+### Routing
+- React Router / Angular Router
+
+### Data
+- Local JSON files  
+- Mock objects  
+- Optional use of RandomUser API
+
+---
+## 🚀 Installation & Setup
+
+2️⃣ Install dependencies
+
+npm install
+3️⃣ Start development server
+
+npm run dev
+Your app will run on:
+
+http://localhost:3000/
+📦 Build for Production
+
+npm run build
+
