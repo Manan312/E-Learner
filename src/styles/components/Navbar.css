@@ -1,0 +1,78 @@
+/* Main glass navbar container */
+.glass-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 40px;
+  margin: 20px;
+
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Logo */
+.glass-logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.glass-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Menu list */
+.glass-menu {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Each menu item */
+.glass-menu li {
+  position: relative;
+}
+
+/* Menu links */
+.glass-menu a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+  padding-bottom: 3px;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Hover effect */
+.glass-menu a:hover {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  transform: translateY(-2px);
+}
+/* Responsive */
+@media (max-width: 600px) {
+  .glass-navbar {
+    padding: 14px 20px;
+  }
+  .glass-menu {
+    gap: 18px;
+  }
+  .glass-logo {
+    font-size: 22px;
+  }
+}

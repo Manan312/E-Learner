@@ -1,0 +1,9 @@
+.appLayout {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageContent {
+  flex: 1;
+}

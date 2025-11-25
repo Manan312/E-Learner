@@ -1,0 +1,14 @@
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+.aboutInformation{
+    max-width: 800px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #333333;
+}

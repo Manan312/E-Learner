@@ -1,0 +1,25 @@
+.pageContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.personnelList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+  justify-content: center;
+}
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* or 100vh for full screen */
+}
+
+.loaderGif {
+  width: 80px;   /* adjust size if needed */
+  height: 80px;
+  object-fit: contain;
+}
